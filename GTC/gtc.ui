@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GTCClass</class>
+ <widget class="QMainWindow" name="GTCClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GTC</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1351</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(125, 125, 125);
+border: 5px solid rgb(95,95, 95);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="B_Start_Proceso">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>9:30 - 10:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_3">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>10</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>10:00 - 10:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>10:30 - 11:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_5">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>70</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>11:00 - 11:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>11:30 - 12:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_7">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>130</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>12:00 - 12:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>12:30 - 13:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_9">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>190</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>13:00 - 13:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>16:30 - 17:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_11">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>430</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>17:00 - 17:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>17:30 - 18:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_13">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>490</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>18:00 - 18:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>18:30 - 19:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_15">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>550</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>19:00 - 19:30</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>610</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>19:30 - 20:00</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_1">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>10</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_2">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>70</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_4">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>70</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_5">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_6">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>130</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_7">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>190</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_8">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>190</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_9">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>430</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_10">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>430</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_11">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>490</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_12">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>490</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_13">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>550</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_14">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>550</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_15">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>610</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Fecha">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>260</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>13:30 - 14:00</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_16">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>250</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_18">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>250</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>14:00 - 14:30</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_17">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>250</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>14:30 - 15:00</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_18">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>310</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_20">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>310</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>15:00 - 15:30</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_19">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>310</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>15:30 - 16:00</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_20">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>370</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_22">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>370</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>16:00 - 16:30</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_21">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>370</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="B_Start_Proceso_23">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>610</y>
+       <width>111</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="statusTip">
+      <string/>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+color: white;
+border: 2px solid #555;
+border-radius: 11px;
+padding: 5px;
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy: -0.3,
+radius: 1.35, stop: 0 rgba(21, 230,226,255), stop: 1 rgba(21, 230,226, 100));
+
+min-width: 70px;
+}
+
+QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.3,
+fx: 0.4, fy:-0.3,
+radius: 1.3, stop: 0 rgba(21,230,226, 100), stop: 1 rgba(21, 230,226,255));
+}
+
+QPushButton:hover {
+     background-color: rgb(21, 230, 255);
+
+ }</string>
+     </property>
+     <property name="text">
+      <string>20:00 - 20:30</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Linea_22">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>610</y>
+       <width>401</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid #555;
+border-radius: 11px;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="F_Calendario">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>10</y>
+      <width>271</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255,0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QCalendarWidget" name="Calendario">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>256</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="gtc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
